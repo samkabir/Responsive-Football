@@ -148,3 +148,39 @@ header:hover .banner-img img{
     line-height: 24px;
     font-weight: 400;
 }
+
+/* -----------------------
+       Media queries
+-------------------------*/
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .banner-title h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .banner-img img{
+        width: 329px;
+        height: 259.17px;
+    }
+    .article12{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .football img{
+        width: 75%;
+        height:60%;
+        margin-bottom: 30px;
+    }
+    .footer-main{
+        margin-bottom: 169px;
+    }
+}

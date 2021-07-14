@@ -52,6 +52,29 @@ header{
     width: 556.01px;
     height: 438px;
 }
+.banner-button a:hover{
+    background-color: white;
+    color: #E02C6D;
+    box-shadow: 0px 0px 60px 50px #e02c6d;
+    height: 36px;
+    width: 150px;
+    font-size: 18px;
+    transition: 1s;
+}
+
+header:hover .banner-title h1{
+    text-shadow: 40px 40px 70px #e02c6d;
+    transition: 2s;
+}
+@keyframes football-img {
+    0%{width: 556.01px; height: 438px;}
+    50%{width: 650px; height: 500px;}
+    100%{width: 556.01px; height: 438px;}
+}
+header:hover .banner-img img{
+    animation-name: football-img;
+    animation-duration: 3s;
+}
 
 /* -----------------------
     Grid Articles Styles 

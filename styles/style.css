@@ -1,0 +1,127 @@
+/* Author : Samiul Kabir 
+WebHero Programming Batch 4
+Assignment 2 - Responsive Football
+*/
+
+/* -----------------
+         Fonts 
+---------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/*------------------
+       Common CSS
+-------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+/* -----------------
+    Banner Styles 
+-------------------*/
+header{
+    background-color: #2D25A0;
+    height: 677px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-title h1{
+    font-size: 64px;
+    color: white;
+    line-height: 80px;
+    margin-bottom: 27px;
+}
+.banner-button a{
+    display: block;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: white;
+    height: 24px;
+    width: 120px;
+    /* here height + top + bottom padding = 44px
+    and width +lef+right padding= 168px */
+
+}
+.banner-img img{
+    width: 556.01px;
+    height: 438px;
+}
+
+/* -----------------------
+    Grid Articles Styles 
+-------------------------*/
+.article12{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+.articles{
+    padding: 15px 15px 15px 15px;
+    width: 300px;
+    height: 474px;
+    margin: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.articles img{
+    Width: 300px;
+    Height: 256px; 
+}
+.article-title{
+    font-size: 28px;
+}
+.articles h2{
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+.articles p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.article-detail{
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+    ;
+}
+
+/* -----------------------
+          Footer
+-------------------------*/
+
+.football img{
+    width: 483.87px;
+    height: 110px;
+}
+.footer-main{
+    width: 483.87px;
+    height: 213px;
+    text-align: center;
+}
+.social-icons{
+    height: 32px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+.fab{
+    width: 32px;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #e2dddd;
+    color: #969BAB;
+    margin-right: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-main p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}

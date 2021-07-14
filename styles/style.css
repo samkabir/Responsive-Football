@@ -157,7 +157,7 @@ header:hover .banner-img img{
 -------------------------*/
 .matches{
     width: 300px;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,7 +190,15 @@ header:hover .banner-img img{
     font-weight: 400;
     margin-top: 10px;
 }
-
+.matches-button a{
+    display: block;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 10px;
+    color: white;
+    height: 24px;
+    width: 100px;
+}
 /* -----------------------
           Footer
 -------------------------*/
@@ -248,21 +256,19 @@ header:hover .banner-img img{
         align-items: center;
         justify-content: center;
         align-content: center;
+        width: 100%;
+        
     }
     header{
         width: 100%;
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
     }
     .banner-title h1{
         font-size: 36px;
         line-height: 50px;
     }
     .banner-img img{
-        width: 329px;
+        width: 100%;
         height: 259.17px;
     }
     .article12{
@@ -289,7 +295,7 @@ header:hover .banner-img img{
         grid-template-columns: repeat(1, 1fr);
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         align-content: center;
     }
